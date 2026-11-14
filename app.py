@@ -505,7 +505,7 @@ if st.button("📊 採点して提出用レポートを作成する", type="prim
         3. **「あなたの課題」→「追加または作成」→「ファイル」** からダウンロードしたファイルを添付し、**「提出」** を押してください。
         """)
 
-        file_name = f"提出用_人間の理解_{s_id}_{s_name}.html"
+        file_name = f"提出用_人間の理解_b後半{s_id}_{s_name}.html"
         st.download_button(
             label="📥 提出用レポート（HTML）を保存",
             data=report_html,
